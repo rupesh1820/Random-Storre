@@ -1,0 +1,404 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+html,body{
+  width: 100%;
+  background: rgba(152, 211, 239, 0.478);
+
+}
+header{
+  display: flex;
+  height: 60px;
+  width: 100%;
+  background: rgb(43, 47, 86);
+
+
+}
+.men_fas{
+  display: flex;
+  background: #c5ccde;
+  border: 2px solid black;
+  width: 200px;
+  border-radius: 4px;
+  margin-right: 20px;
+  padding: 20px;
+  height: 400px;
+  
+  
+}
+.menpic{
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+#men_fashion{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+#kids_fashion{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 36px;
+}
+#electronics{
+  margin-left: 36px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+#food_item{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 36px;
+}
+#nfood_item{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 36px;
+}
+.mencon{
+  flex-wrap: wrap;
+  display: flex;
+  height: 273px;
+  width: 240px;
+  margin-left: -30px;
+  margin-top: -29px;
+  padding: 0;
+
+  
+}
+p{
+  font-size: 10px;
+  word-spacing: 5px;
+  text-align:left;
+  font-size: 25px;
+  margin-left: -20px;
+  word-wrap: none;
+  flex-wrap: nowrap;
+  
+}
+#explorebtn{
+  height: 30px;
+  float: inline-end;
+  margin: 10px;
+  font-weight: 300;
+  background: #5893e5;
+border-radius: 4px;
+cursor: pointer;
+}
+
+nav{
+  display: flex;
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  justify-content: space-evenly;
+  
+}
+
+nav ul{
+  display: flex;
+  margin-top: 10px;
+  font-size: 20px;
+justify-content: space-between;
+  text-align: center;
+  list-style: none;
+  gap: 10px;
+  
+  
+}
+nav ul li{
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  justify-content: space-between;
+  gap: 30px;
+  
+}
+nav ul li a{
+  
+  justify-content: space-evenly;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color:black;
+}
+ #logo{
+  padding-left: 20px;
+  margin-left: 15px;
+}
+#logo_id{
+  color: #fff;
+  margin-left: -64px;
+  height: 60px;
+  width: 60px;
+float: left;
+}
+#search_bar{
+  margin-left: -63px;
+  padding-left: 33px;
+  margin-top: 15px;
+  width: 28%;
+  height: 30px;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+/*#search_menu{
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  display: inline-block
+}*/
+
+header nav ul li a{
+  color: #fff;
+}
+#menuu{
+  margin-top: 20px;
+  display: none;
+  color: #fff;
+}
+
+h1{
+  text-align: center;
+   margin-top: 5%;
+   text-transform: capitalize;
+   text-size-adjust: 20px;
+   text-shadow: 5px;
+   
+   
+
+}
+ h2{
+
+  text-transform: capitalize;
+  margin-top: 5%;
+  margin-left: 3%;
+  
+}
+ul{
+  margin-left: 5%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+ul li{
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+#men_fashion{
+  display: flex;
+  justify-content: space-around;
+  word-spacing: 60px;
+  margin-left: 20px;
+  align-content: space-between;
+}
+
+#women_fashion{
+  display: flex;
+  justify-content: space-around;
+  word-spacing: 60px;
+  align-content: space-between;
+}
+
+.women_fas{
+  display: flex;
+  background: #c5ccde;
+  border: 2px solid black;
+  width: 200px;
+  border-radius: 4px;
+  margin-right: 20px;
+  padding: 20px;
+  height: 400px;
+  
+  
+}
+.womenpic{
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+#women_fashion{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 20px;
+}
+.womencon{
+  flex-wrap: wrap;
+  display: flex;
+  height: 273px;
+  width: 240px;
+  margin-left: -30px;
+  margin-top: -29px;
+  padding: 0;
+
+  
+}
+p{
+  font-size: 10px;
+  word-spacing: 5px;
+  text-align:left;
+  font-size: 25px;
+  margin-left: -20px;
+  word-wrap: none;
+  flex-wrap: nowrap;
+  
+}
+#explorebtn{
+  height: 30px;
+  float: inline-end;
+  margin: 10px;
+  font-weight: 300;
+  background: #5893e5;
+border-radius: 4px;
+cursor: pointer;
+}
+
+
+
+#women_fashion{
+  word-spacing: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 3%;
+  align-content: space-between;
+}
+#last{
+  display: inline-block;
+  word-spacing: 20px;
+  text-decoration: none;
+  text-align: left;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+
+.logo_pic{
+  
+  background-image: url( logo\ container.jpg);
+  background-size: 100%;
+  height: 500px;
+  margin: 20px 0px;
+  background-repeat:no-repeat;
+  background-blend-mode: lighten;
+  background-position: center;
+  
+  
+}
+
+/*.logo_container{
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin: 20px 0px;
+  }
+  #frontlogo{
+    width: 100%;
+    align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 3px solid black;
+  overflow-x: hidden;
+  }*/
+
+footer{
+  display: flex;
+  text-transform: capitalize;
+}
+.foot{
+  margin: 20px 50px;
+  margin-left: 5%;
+  justify-content: space-between;
+  text-transform: capitalize;
+  word-spacing: 300px;
+} 
+h6{
+  text-align: center;
+  justify-content: center;
+  font-size: 20px;
+}
+#more{
+  height: 35px;
+  width: 60px;
+  margin-bottom: 0;
+}
+.space{
+  height: 40px;
+}
+#mores{
+  height: 35px;
+  width: 60px;
+  margin-left: 0;
+}
+@media (max-width:1026px){
+#menuu{
+  display: block;
+  color: #fff;
+}
+header nav ul li{
+  padding: 20px;
+  margin: 0;
+  margin-left: 0;
+  display: flex;
+}
+#menuList{
+  position: absolute;
+  top: 51px;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  align-items: end;
+  background: rgb(43, 47, 86); 
+  gap: 0;
+  align-items: center;
+  margin-left: 0;
+  overflow: hidden;
+  color: #fff;
+  cursor: pointer;
+}
+
+}
+#menuList{
+  transition: all;
+  transition-duration: 1s;
+  transition-delay: 0;
+  gap: 20px;
+}
+header nav ul li a:hover{
+  color: rgb(202, 123, 123);
+}
+
+@media(max-width:575px){
+  .logo_pic{
+  
+    background-image: url( logo\ container.jpg);
+    background-size: 100%;
+    height: 284px;
+    margin: 20px 0px;
+    background-repeat:no-repeat;
+    background-blend-mode: lighten;
+    background-position: center;
+    
+    
+  }
+}
+@media(max-width:425px){
+  .logo_pic{
+  
+    background-image: url( logo\ container.jpg);
+    background-size: 100%;
+    height: 126px;
+    margin: 20px 0px;
+    background-repeat:no-repeat;
+    background-blend-mode: lighten;
+    background-position: center;
+    
+    
+  }
+}
